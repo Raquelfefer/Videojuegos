@@ -48,4 +48,10 @@ public class JuegoFisico extends Videojuego implements Entregable{
 		return iguales;
 	}
 	
+	@Override
+	public String toString() {
+		return "Juego Físico [Titulo = " + this.getTitulo() + ", genero = " + this.getGenero() + ", plataforma = " + this.getPlataforma() 
+		+ ", precio = " + this.getPrecio() + ", estado = " + this.estado + ", disponibilidad = " + this.disponibilidad + " ] \n";
+	}
+	
 }

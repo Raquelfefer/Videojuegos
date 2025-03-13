@@ -1,6 +1,6 @@
 package game.videojuego;
 
-public class Videojuego implements Comparable<Videojuego>{
+public abstract class Videojuego implements Comparable<Videojuego>{
 
 	private String titulo;
 	private String genero;
