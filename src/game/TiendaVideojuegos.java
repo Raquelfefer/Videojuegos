@@ -3,6 +3,7 @@ package game;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Objects;
 
 import game.videojuego.CompararTitulo;
 import game.videojuego.Videojuego;
@@ -56,6 +57,9 @@ public class TiendaVideojuegos {
 		}
 		c.comprarVideojuego(v);
 	}
+
+	
+	
 	
 	
 	
